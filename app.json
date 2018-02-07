@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/gank/home/home",
+    "pages/gank/day/day",
+    "pages/gank/detail/detail",
+
+    "pages/wanandroid/home/home",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundColor": "#f0145a",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f0145a",
+    "navigationBarTitleText": "DOMAIN",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#f0145a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/gank/home/home",
+        "text": "gank",
+        "iconPath": "images/gank.png",
+        "selectedIconPath": "images/gank_se.png"
+      },
+      {
+        "pagePath": "pages/wanandroid/home/home",
+        "text": "wanandroid",
+        "iconPath": "images/android.png",
+        "selectedIconPath": "images/android_se.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
